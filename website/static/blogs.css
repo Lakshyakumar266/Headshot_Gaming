@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Blog 1 */
+.image img {
+  width: 15vw;
+  float: left;
+  display: flex;
+}
+.content-inner {
+  display: flex !important;
+}
+.card-featured {
+  background-color: #3498db !important;
+}
+
+/* alert Style */
+.alert {
+  position: fixed !important;
+  top: 0;
+  width: 100% !important;
+  z-index: 999999999999;
+}
+.alert-background {
+  background-color: #f8d7da !important;
+  border: 2px solid #f5c6cb !important;
+  color: #721c24;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 931px) {
+    .image img{
+        width: 100%!important;
+    }
+  .content-inner {
+    flex-direction: column;
+  }
+}

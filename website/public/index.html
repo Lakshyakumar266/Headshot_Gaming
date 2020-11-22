@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Beast Gaming</title>
+    <link rel="stylesheet" href="../Static/WelcomePageStyle.css">
+</head>
+
+<body>
+    <div class="contaner">
+        <div class="upper">
+            <div class="content">
+                <h2 class="welcome"> Welcome </h2>
+                <h1 class="typed">Black Beast Gaming</h1>
+                <div class="start-playing">
+                    <h1 class="play-percon">Play With Us-&nbsp;</h1>
+                    <h1 class="type"></h1>
+                </div>
+                <div class="line-height-1"></div>
+                <div class="StartButton">
+                    <button type="submit" class="buttonStart btn"
+                        onclick="window.location.href='main.html'">Website</button>
+                    <button type="submit" class="buttonStart btn" onclick="openyoutube()"
+                        target="_blank">YouTube</button>
+                </div>
+            </div>
+        </div>
+        <div class="background"></div>
+    </div>
+    <div id="svg"></div>
+    <!-- Script Adding Area  -->
+    <script src="../Void/WelcomePageSvgAdd.js"></script>
+    <script src="../Void/WelcomePageScript.js"></script>
+    <script src="../Void/typed.js"></script>
+    <script>
+        window.onload = function () {
+            // console.log("loaded..")
+            var typed = new Typed('.type', {
+                strings: ["Free Fire", "call of duty", "fortnite", "And More Games :)"],
+                backSpeed: 25,
+                smartBackspace: true,
+                backDelay: 1200,
+                startDelay: 1000,
+                typeSpeed: 50,
+                loop: true,
+            });
+        };
+    </script>
+</body>
+
+</html>

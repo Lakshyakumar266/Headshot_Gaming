@@ -1,0 +1,50 @@
+
+/* Page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TYPE.JS */
+.typed_js{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+/* Edeting Head Cord */
+.card-text{
+  text-align: left!important;
+}
+.card-title{
+  text-transform: uppercase!important;
+}
+
+/* edetng card image */
+.img{
+  background-image: url('../../logo.png');
+  background-position: center;
+  background-size: cover;
+  width: 210px;
+  height: 190px;
+}
+.img-back{
+  float: right;
+}
+
+/* Card Betwen(second card) */
+.content-between{
+  background: rgb(245, 246, 247);  
+}
+.trailer-typed-div{
+  width: 208px;
+  display: flex;
+}
+
+/* last card */
+.content-end{
+  display: flex;
+}
